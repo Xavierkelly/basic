@@ -1,0 +1,135 @@
+/*
+Theme Name: Start WordPress
+Theme URI: http://K-R.tech
+Author: Xavier Kelly & Kyle Rebello at Kelly & Rebello Tech
+Author URI: http://K-R.tech
+Description: Basic Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap, blogging
+*/
+
+/*Header*/
+.navbar-brand{
+    min-height: 50px;
+    height: 70px;
+    padding: 10px 10px;
+}
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 20px;
+}
+.navbar-toggle {
+    margin-top: 20px;
+}
+
+/* Body */
+body{
+    background-color: #eaeaea;
+}
+#main{
+    background-color: inherit;
+    padding: 10px 10px 30px;
+}
+#main .container .blog-post-panel{
+    background-color: white;
+    padding:15px;
+    margin-bottom: 15px;
+}
+
+/* Post */
+.blog-header-image img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* Social Sharing Button*/
+.social-component{
+    padding: 0px 15px 5px;
+}
+.social-component .share{
+    padding: 10px;
+    color:#ffffff;
+    text-align: center;
+}
+.social-component .facebook{
+    background-color: #3b5998;
+}
+.social-component .linkedin{
+    background-color: #0077b5;
+}
+.social-component .google{
+    background-color: #dd4b39 ;
+}
+.social-component .email{
+    background-color: #d7d7d8;
+}
+.social-component .twitter{
+    background-color: #4099FF;
+}
+.social-component .pinterest{
+    background-color: #cb2027;
+}
+
+
+    /* Comments*/
+.comment-list{
+    list-style-type: none;
+}
+.comment-form-comment textarea{
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+.form-submit #submit{
+    margin-top: 5px;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 400;
+    overflow: visible;
+    text-transform: none;
+    background-image: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    background-color: #565656;
+    width: 100%;
+    padding: 5px 0px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+#footer-sidebar{
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+}
+.copy{
+    background-color: #333333;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    border-top: #4d4d4d 2px solid;
+}
