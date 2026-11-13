@@ -1,0 +1,20 @@
+:root { --app-safe-bottom: env(safe-area-inset-bottom, 0px); }
+body { padding-bottom: var(--app-safe-bottom); -webkit-tap-highlight-color: transparent; }
+.punch-btn { width: 13rem; height: 13rem; font-size: 1.6rem; font-weight: 600; box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.15); }
+.punch-btn:disabled { opacity: .7; }
+@media (max-width: 400px) { .punch-btn { width: 11rem; height: 11rem; } }
+.payroll-grid { max-height: 75vh; }
+.payroll-grid thead th { position: sticky; top: 0; z-index: 2; }
+.payroll-grid .sticky-col { position: sticky; left: 0; z-index: 1; background: var(--bs-body-bg); min-width: 9rem; }
+.payroll-grid thead .sticky-col { z-index: 3; background: var(--bs-tertiary-bg); }
+.payroll-grid tr.table-success .sticky-col { background: var(--bs-success-bg-subtle); }
+.payroll-grid input.saving { background: var(--bs-warning-bg-subtle); }
+.payroll-grid input.saved { background: var(--bs-success-bg-subtle); transition: background .6s; }
+.sticky-actions { position: sticky; bottom: 0; background: var(--bs-tertiary-bg); padding: .75rem 0 calc(.75rem + var(--app-safe-bottom)); z-index: 5; }
+#toast { z-index: 2000; min-width: 16rem; max-width: 92vw; }
+@media print {
+  nav, .d-print-none, #toast { display: none !important; }
+  body { background: #fff !important; }
+  .stub { border: 0 !important; }
+  main { padding: 0 !important; }
+}
