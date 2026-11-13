@@ -17,6 +17,8 @@ return [
         'access_token' => '',
         'location_id' => '',
         'plan_variation_id' => '',           // subscription plan variation id from Square catalog
+        'plan_name' => 'Basic Payroll monthly',
+        'plan_price_cents' => 0,             // must match the plan variation's price, e.g. 2900 for $29.00
         'webhook_signature_key' => '',
         'webhook_url' => '',                 // must exactly match the URL registered in Square
     ],

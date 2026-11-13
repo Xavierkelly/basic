@@ -67,6 +67,8 @@ CREATE TABLE IF NOT EXISTS subscriptions (
   current_period_end DATETIME NULL,
   square_customer_id VARCHAR(64) NULL,
   square_subscription_id VARCHAR(64) NULL,
+  square_order_id VARCHAR(64) NULL,
+  square_payment_link_id VARCHAR(64) NULL,
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   CONSTRAINT fk_sub_company FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -182,6 +184,12 @@ CREATE TABLE IF NOT EXISTS paychecks (
   CONSTRAINT fk_pc_company FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE,
   CONSTRAINT fk_pc_period FOREIGN KEY (pay_period_id) REFERENCES pay_periods(id) ON DELETE CASCADE,
   CONSTRAINT fk_pc_emp FOREIGN KEY (employee_id) REFERENCES employees(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS square_events (
+  event_id VARCHAR(80) PRIMARY KEY,
+  type VARCHAR(80) NOT NULL,
+  received_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS audit_log (

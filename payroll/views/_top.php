@@ -69,6 +69,10 @@ if ($u) {
 </nav>
 <?php endif; ?>
 <main class="container-xxl py-3 px-3">
+<?php if ($u && ($sub = Billing::subscription((int) $u['company_id'])) && !Billing::inGoodStanding($sub) && ($_GET['p'] ?? '') !== 'billing'): ?>
+  <div class="alert alert-warning py-2">Your subscription has ended, so the account is read-only. Clocking in still works.
+    <?php if (Auth::can('owner')): ?><a href="<?= e(url('billing')) ?>">Restart it</a><?php endif; ?></div>
+<?php endif; ?>
 <?php if ($f = flash()): ?>
   <div class="alert alert-<?= e($f['type']) ?> alert-dismissible fade show" role="alert"><?= e($f['msg']) ?>
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>

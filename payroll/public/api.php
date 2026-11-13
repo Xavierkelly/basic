@@ -15,6 +15,9 @@ $co = Auth::company();
 $cid = (int) $co['id'];
 $in = json_decode(file_get_contents('php://input') ?: '[]', true) ?: [];
 $action = (string) ($_GET['action'] ?? '');
+if ($action !== 'punch' && !Billing::inGoodStanding(Billing::subscription($cid))) {
+    json_out(['ok' => false, 'error' => 'Your subscription has ended, so changes are paused until it is restarted.'], 402);
+}
 
 /** Load a row that must belong to the signed-in company. */
 function owned(string $table, mixed $id): array

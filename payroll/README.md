@@ -18,7 +18,7 @@ Many businesses can sign up; each one only ever sees its own data.
 - **Import** the existing workbook (.xlsx): Tax Settings → employees and W-4 data, every weekly tab → pay periods. Paid history is imported exactly and locked.
 - **Installable app (PWA)** – "Add to Home Screen" on iPhone and Android; opens full screen with its own icon.
 
-Subscription billing through Square is the next step (separate pull request).
+- **Subscription billing with Square** – new businesses get a free trial, then subscribe on Square's hosted checkout (no card data on this server). Square webhooks keep the status current. If a subscription lapses the account becomes read-only, though employees can still clock in.
 
 ## Folder layout
 
@@ -49,6 +49,14 @@ payroll/
 5. Open the site, click **Create an account**, then **Import spreadsheet** from the menu (Google Sheets: File → Download → Microsoft Excel).
 
 After importing, check **Company settings → Count paid checks toward YTD from** (the import sets it to the sheet's Oct 16, 2026 date) and each employee's "wages paid before this app".
+
+## Billing (Square)
+
+1. In the Square Dashboard create a **subscription plan** (Items → Subscription plans) with a monthly variation. Copy the **plan variation ID**.
+2. In the [Square Developer Dashboard](https://developer.squareup.com/apps) create an app and copy its **access token** and **location ID** (start with Sandbox).
+3. Under **Webhooks**, add an endpoint `https://YOUR-DOMAIN/square-webhook.php` and subscribe to `subscription.created`, `subscription.updated`, `payment.created`, `payment.updated`, `invoice.payment_made` and `invoice.scheduled_charge_failed`. Copy its **signature key**.
+4. Fill in the `square` section of `config.php` (`plan_price_cents` must equal the plan's price; `webhook_url` must exactly match the URL you registered).
+5. Owners see **Billing** in the menu: **Subscribe with Square** opens Square's checkout, and **Cancel** ends it at the close of the paid period.
 
 ## Local development
 

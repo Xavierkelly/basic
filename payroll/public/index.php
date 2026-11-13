@@ -17,6 +17,12 @@ if (!in_array($page, $public, true)) {
 }
 if (is_post()) {
     csrf_check();
+    // Lapsed subscriptions are read-only (employees can still clock in; owners can still fix billing).
+    if (Auth::user() && !in_array($page, ['billing', 'logout', 'account', 'login', 'signup'], true)
+        && !Billing::inGoodStanding(Billing::subscription(Auth::companyId()))) {
+        flash('Your subscription has ended, so changes are paused. ' . (Auth::can('owner') ? 'Restart it below.' : 'Ask the account owner to restart it.'), 'warning');
+        redirect(Auth::can('owner') ? 'billing' : 'home');
+    }
 }
 
 header('X-Frame-Options: DENY');
