@@ -1,0 +1,2 @@
+# Safety net if the whole payroll/ folder is ever web-accessible: only public/ should be served.
+Require all denied

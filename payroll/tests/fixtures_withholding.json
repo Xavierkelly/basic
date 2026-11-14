@@ -1,0 +1,5234 @@
+[
+ {
+  "case": "Oct 5-11 / E1",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 388.32,
+     "ss": 388.32,
+     "med": 388.32,
+     "state": 388.32
+    },
+    "expect": {
+     "federal": 7.87,
+     "ss": 24.08,
+     "medicare": 5.63,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 37.58
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E2",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 114.75,
+  "ytd_med": 114.75,
+  "lines": [
+   {
+    "wages": {
+     "fed": 490.96,
+     "ss": 490.96,
+     "med": 490.96,
+     "state": 490.96
+    },
+    "expect": {
+     "federal": 18.13,
+     "ss": 30.44,
+     "medicare": 7.12,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 37.58
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E3",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 111.6,
+  "ytd_med": 111.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 70.56,
+     "ss": 70.56,
+     "med": 70.56,
+     "state": 70.56
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 4.37,
+     "medicare": 1.02,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 5.39
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E4",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2192.18,
+  "ytd_med": 2192.18,
+  "lines": [
+   {
+    "wages": {
+     "fed": 193.4,
+     "ss": 193.4,
+     "med": 193.4,
+     "state": 193.4
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 11.99,
+     "medicare": 2.8,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 14.79
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E5",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1152.96,
+  "ytd_med": 1152.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 290.08,
+     "ss": 290.08,
+     "med": 290.08,
+     "state": 290.08
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 17.98,
+     "medicare": 4.21,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 22.19
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E6",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1530.24,
+  "ytd_med": 1530.24,
+  "lines": [
+   {
+    "wages": {
+     "fed": 629.28,
+     "ss": 629.28,
+     "med": 629.28,
+     "state": 629.28
+    },
+    "expect": {
+     "federal": 33.59,
+     "ss": 39.02,
+     "medicare": 9.12,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 81.73
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 5-11 / E7",
+  "pay_date": "2026-10-16",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 510.75,
+  "ytd_med": 510.75,
+  "lines": [
+   {
+    "wages": {
+     "fed": 944.25,
+     "ss": 944.25,
+     "med": 944.25,
+     "state": 944.25
+    },
+    "expect": {
+     "federal": 71.39,
+     "ss": 58.54,
+     "medicare": 13.69,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 143.62
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E8",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 226.56,
+  "ytd_med": 226.56,
+  "lines": [
+   {
+    "wages": {
+     "fed": 382.88,
+     "ss": 382.88,
+     "med": 382.88,
+     "state": 382.88
+    },
+    "expect": {
+     "federal": 7.33,
+     "ss": 23.74,
+     "medicare": 5.55,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 36.62
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E1",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 388.32,
+  "ytd_med": 388.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 625.28,
+     "ss": 625.28,
+     "med": 625.28,
+     "state": 625.28
+    },
+    "expect": {
+     "federal": 33.11,
+     "ss": 38.77,
+     "medicare": 9.07,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 80.95
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E9",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 162.4,
+  "ytd_med": 162.4,
+  "lines": [
+   {
+    "wages": {
+     "fed": 547.68,
+     "ss": 547.68,
+     "med": 547.68,
+     "state": 547.68
+    },
+    "expect": {
+     "federal": 23.81,
+     "ss": 33.96,
+     "medicare": 7.94,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 65.71
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E7",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1455.0,
+  "ytd_med": 1455.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1216.8,
+     "ss": 1216.8,
+     "med": 1216.8,
+     "state": 1216.8
+    },
+    "expect": {
+     "federal": 104.09,
+     "ss": 75.44,
+     "medicare": 17.64,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 197.17
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E10",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 452.8,
+     "ss": 452.8,
+     "med": 452.8,
+     "state": 452.8
+    },
+    "expect": {
+     "federal": 14.32,
+     "ss": 28.07,
+     "medicare": 6.57,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 48.96
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E11",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 128.0,
+     "ss": 128.0,
+     "med": 128.0,
+     "state": 128.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 7.94,
+     "medicare": 1.86,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 9.8
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E12",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 4932.56,
+  "ytd_med": 4932.56,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1547.85,
+     "ss": 1547.85,
+     "med": 1547.85,
+     "state": 1547.85
+    },
+    "expect": {
+     "federal": 170.72,
+     "ss": 95.97,
+     "medicare": 22.44,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 289.13
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E13",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1834.72,
+  "ytd_med": 1834.72,
+  "lines": [
+   {
+    "wages": {
+     "fed": 243.68,
+     "ss": 243.68,
+     "med": 243.68,
+     "state": 243.68
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 15.11,
+     "medicare": 3.53,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 18.64
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E14",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 16630.12,
+  "ytd_med": 16630.12,
+  "lines": [
+   {
+    "wages": {
+     "fed": 969.23,
+     "ss": 969.23,
+     "med": 969.23,
+     "state": 969.23
+    },
+    "expect": {
+     "federal": 74.38,
+     "ss": 60.09,
+     "medicare": 14.05,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 148.52
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E15",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 21300.0,
+  "ytd_med": 21300.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1825.0,
+     "ss": 1825.0,
+     "med": 1825.0,
+     "state": 1825.0
+    },
+    "expect": {
+     "federal": 231.69,
+     "ss": 113.15,
+     "medicare": 26.46,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 371.3
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E16",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 14817.2,
+  "ytd_med": 14817.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1081.4,
+     "ss": 1081.4,
+     "med": 1081.4,
+     "state": 1081.4
+    },
+    "expect": {
+     "federal": 87.84,
+     "ss": 67.05,
+     "medicare": 15.68,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 170.57
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E4",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2385.58,
+  "ytd_med": 2385.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 60.0,
+     "ss": 60.0,
+     "med": 60.0,
+     "state": 60.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 3.72,
+     "medicare": 0.87,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 4.59
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E5",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1443.04,
+  "ytd_med": 1443.04,
+  "lines": [
+   {
+    "wages": {
+     "fed": 621.12,
+     "ss": 621.12,
+     "med": 621.12,
+     "state": 621.12
+    },
+    "expect": {
+     "federal": 32.61,
+     "ss": 38.51,
+     "medicare": 9.01,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 80.13
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E6",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2159.52,
+  "ytd_med": 2159.52,
+  "lines": [
+   {
+    "wages": {
+     "fed": 471.75,
+     "ss": 471.75,
+     "med": 471.75,
+     "state": 471.75
+    },
+    "expect": {
+     "federal": 16.21,
+     "ss": 29.25,
+     "medicare": 6.84,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 52.3
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 12 -18 / E17",
+  "pay_date": "2026-10-23",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0,
+  "ytd_ss": 24240.37,
+  "ytd_med": 24240.37,
+  "lines": [
+   {
+    "wages": {
+     "fed": 489.84,
+     "ss": 489.84,
+     "med": 489.84,
+     "state": 489.84
+    },
+    "expect": {
+     "federal": 43.66,
+     "ss": 30.37,
+     "medicare": 7.1,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 81.13
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99000000000001,
+     "ss": 50.08,
+     "medicare": 11.709999999999999,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E1",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1013.5999999999999,
+  "ytd_med": 1013.5999999999999,
+  "lines": [
+   {
+    "wages": {
+     "fed": 436.8,
+     "ss": 436.8,
+     "med": 436.8,
+     "state": 436.8
+    },
+    "expect": {
+     "federal": 12.72,
+     "ss": 27.08,
+     "medicare": 6.33,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 46.13
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E8",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 609.44,
+  "ytd_med": 609.44,
+  "lines": [
+   {
+    "wages": {
+     "fed": 467.52,
+     "ss": 467.52,
+     "med": 467.52,
+     "state": 467.52
+    },
+    "expect": {
+     "federal": 15.79,
+     "ss": 28.99,
+     "medicare": 6.78,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 51.56
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E10",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 452.8,
+  "ytd_med": 452.8,
+  "lines": [
+   {
+    "wages": {
+     "fed": 973.12,
+     "ss": 973.12,
+     "med": 973.12,
+     "state": 973.12
+    },
+    "expect": {
+     "federal": 74.85,
+     "ss": 60.33,
+     "medicare": 14.11,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 149.29
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E11",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 659.68,
+     "ss": 659.68,
+     "med": 659.68,
+     "state": 659.68
+    },
+    "expect": {
+     "federal": 37.24,
+     "ss": 40.9,
+     "medicare": 9.57,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 87.71
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E12",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 6480.41,
+  "ytd_med": 6480.41,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1392.3000000000002,
+     "ss": 1392.3000000000002,
+     "med": 1392.3000000000002,
+     "state": 1392.3000000000002
+    },
+    "expect": {
+     "federal": 136.5,
+     "ss": 86.32,
+     "medicare": 20.19,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 243.01
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E13",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2078.4,
+  "ytd_med": 2078.4,
+  "lines": [
+   {
+    "wages": {
+     "fed": 439.2,
+     "ss": 439.2,
+     "med": 439.2,
+     "state": 439.2
+    },
+    "expect": {
+     "federal": 12.96,
+     "ss": 27.23,
+     "medicare": 6.37,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 46.56
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E14",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 17599.35,
+  "ytd_med": 17599.35,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1264.8,
+     "ss": 1264.8,
+     "med": 1264.8,
+     "state": 1264.8
+    },
+    "expect": {
+     "federal": 109.85,
+     "ss": 78.42,
+     "medicare": 18.34,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 206.61
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E15",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 23125.0,
+  "ytd_med": 23125.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 2100.0,
+     "ss": 2100.0,
+     "med": 2100.0,
+     "state": 2100.0
+    },
+    "expect": {
+     "federal": 292.19,
+     "ss": 130.2,
+     "medicare": 30.45,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 452.84
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E16",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 15898.6,
+  "ytd_med": 15898.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1100.6,
+     "ss": 1100.6,
+     "med": 1100.6,
+     "state": 1100.6
+    },
+    "expect": {
+     "federal": 90.15,
+     "ss": 68.24,
+     "medicare": 15.96,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 174.35
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E4",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2445.58,
+  "ytd_med": 2445.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 160.0,
+     "ss": 160.0,
+     "med": 160.0,
+     "state": 160.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 9.92,
+     "medicare": 2.32,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 12.24
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E5",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2064.16,
+  "ytd_med": 2064.16,
+  "lines": [
+   {
+    "wages": {
+     "fed": 740.8,
+     "ss": 740.8,
+     "med": 740.8,
+     "state": 740.8
+    },
+    "expect": {
+     "federal": 46.97,
+     "ss": 45.93,
+     "medicare": 10.74,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 103.64
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E6",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2631.27,
+  "ytd_med": 2631.27,
+  "lines": [
+   {
+    "wages": {
+     "fed": 527.2,
+     "ss": 527.2,
+     "med": 527.2,
+     "state": 527.2
+    },
+    "expect": {
+     "federal": 21.76,
+     "ss": 32.69,
+     "medicare": 7.64,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 62.09
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E7",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2671.8,
+  "ytd_med": 2671.8,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1463.52,
+     "ss": 1463.52,
+     "med": 1463.52,
+     "state": 1463.52
+    },
+    "expect": {
+     "federal": 152.17,
+     "ss": 90.74,
+     "medicare": 21.22,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 264.13
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 19- 25 / E17",
+  "pay_date": "2026-10-30",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 25048.06,
+  "ytd_med": 25048.06,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1772.62,
+     "ss": 1772.62,
+     "med": 1772.62,
+     "state": 1772.62
+    },
+    "expect": {
+     "federal": 276.59,
+     "ss": 109.9,
+     "medicare": 25.7,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 412.19
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99000000000001,
+     "ss": 50.08,
+     "medicare": 11.709999999999999,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E18",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 240.32,
+     "ss": 240.32,
+     "med": 240.32,
+     "state": 240.32
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 14.9,
+     "medicare": 3.48,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 18.38
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E8",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 609.44,
+  "ytd_med": 609.44,
+  "lines": [
+   {
+    "wages": {
+     "fed": 467.52,
+     "ss": 467.52,
+     "med": 467.52,
+     "state": 467.52
+    },
+    "expect": {
+     "federal": 15.79,
+     "ss": 28.99,
+     "medicare": 6.78,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 51.56
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E19",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 128.8,
+     "ss": 128.8,
+     "med": 128.8,
+     "state": 128.8
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 7.99,
+     "medicare": 1.87,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 9.86
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E20",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 2.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 331.74,
+     "ss": 331.74,
+     "med": 331.74,
+     "state": 331.74
+    },
+    "expect": {
+     "federal": 2.21,
+     "ss": 20.57,
+     "medicare": 4.81,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 27.59
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E10",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 452.8,
+  "ytd_med": 452.8,
+  "lines": [
+   {
+    "wages": {
+     "fed": 973.12,
+     "ss": 973.12,
+     "med": 973.12,
+     "state": 973.12
+    },
+    "expect": {
+     "federal": 74.85,
+     "ss": 60.33,
+     "medicare": 14.11,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 149.29
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E12",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 7872.71,
+  "ytd_med": 7872.71,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1221.96,
+     "ss": 1221.96,
+     "med": 1221.96,
+     "state": 1221.96
+    },
+    "expect": {
+     "federal": 104.71,
+     "ss": 75.76,
+     "medicare": 17.72,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 198.19
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E13",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2517.6,
+  "ytd_med": 2517.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 570.3499999999999,
+     "ss": 570.3499999999999,
+     "med": 570.3499999999999,
+     "state": 570.3499999999999
+    },
+    "expect": {
+     "federal": 26.52,
+     "ss": 35.36,
+     "medicare": 8.27,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 70.15
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E14",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 18864.15,
+  "ytd_med": 18864.15,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1683.79,
+     "ss": 1683.79,
+     "med": 1683.79,
+     "state": 1683.79
+    },
+    "expect": {
+     "federal": 200.63,
+     "ss": 104.39,
+     "medicare": 24.41,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 329.43
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E15",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 25225.0,
+  "ytd_med": 25225.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1200.0,
+     "ss": 1200.0,
+     "med": 1200.0,
+     "state": 1200.0
+    },
+    "expect": {
+     "federal": 102.08,
+     "ss": 74.4,
+     "medicare": 17.4,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 193.88
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E16",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 16999.2,
+  "ytd_med": 16999.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1211.0,
+     "ss": 1211.0,
+     "med": 1211.0,
+     "state": 1211.0
+    },
+    "expect": {
+     "federal": 103.4,
+     "ss": 75.08,
+     "medicare": 17.56,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 196.04
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E4",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2605.58,
+  "ytd_med": 2605.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 410.0,
+     "ss": 410.0,
+     "med": 410.0,
+     "state": 410.0
+    },
+    "expect": {
+     "federal": 10.04,
+     "ss": 25.42,
+     "medicare": 5.95,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 41.41
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E5",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 2804.96,
+  "ytd_med": 2804.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 581.28,
+     "ss": 581.28,
+     "med": 581.28,
+     "state": 581.28
+    },
+    "expect": {
+     "federal": 27.83,
+     "ss": 36.04,
+     "medicare": 8.43,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 72.3
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E6",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 3158.4700000000003,
+  "ytd_med": 3158.4700000000003,
+  "lines": [
+   {
+    "wages": {
+     "fed": 507.68,
+     "ss": 507.68,
+     "med": 507.68,
+     "state": 507.68
+    },
+    "expect": {
+     "federal": 19.81,
+     "ss": 31.48,
+     "medicare": 7.36,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 58.65
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E7",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 4135.32,
+  "ytd_med": 4135.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 844.8,
+     "ss": 844.8,
+     "med": 844.8,
+     "state": 844.8
+    },
+    "expect": {
+     "federal": 59.45,
+     "ss": 52.38,
+     "medicare": 12.25,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 124.08
+    }
+   }
+  ]
+ },
+ {
+  "case": "Oct 26- Nov 1 / E17",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 27628.370000000003,
+  "ytd_med": 27628.370000000003,
+  "lines": [
+   {
+    "wages": {
+     "fed": 175.41,
+     "ss": 175.41,
+     "med": 175.41,
+     "state": 175.41
+    },
+    "expect": {
+     "federal": 13.57,
+     "ss": 10.88,
+     "medicare": 2.54,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 26.99
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99000000000001,
+     "ss": 50.08,
+     "medicare": 11.709999999999999,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E19",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 128.8,
+  "ytd_med": 128.8,
+  "lines": [
+   {
+    "wages": {
+     "fed": 104.0,
+     "ss": 104.0,
+     "med": 104.0,
+     "state": 104.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 6.45,
+     "medicare": 1.51,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 7.96
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E20",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 2.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 4400.0,
+  "ytd_ss": 331.74,
+  "ytd_med": 331.74,
+  "lines": [
+   {
+    "wages": {
+     "fed": 432.0,
+     "ss": 432.0,
+     "med": 432.0,
+     "state": 432.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 26.78,
+     "medicare": 6.26,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 33.04
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E12",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 9094.67,
+  "ytd_med": 9094.67,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1376.49,
+     "ss": 1376.49,
+     "med": 1376.49,
+     "state": 1376.49
+    },
+    "expect": {
+     "federal": 133.02,
+     "ss": 85.34,
+     "medicare": 19.96,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 238.32
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E13",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 3087.95,
+  "ytd_med": 3087.95,
+  "lines": [
+   {
+    "wages": {
+     "fed": 436.56,
+     "ss": 436.56,
+     "med": 436.56,
+     "state": 436.56
+    },
+    "expect": {
+     "federal": 12.69,
+     "ss": 27.07,
+     "medicare": 6.33,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 46.09
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E14",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 20547.94,
+  "ytd_med": 20547.94,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1000.0,
+     "ss": 1000.0,
+     "med": 1000.0,
+     "state": 1000.0
+    },
+    "expect": {
+     "federal": 78.08,
+     "ss": 62.0,
+     "medicare": 14.5,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 154.58
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E15",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 26425.0,
+  "ytd_med": 26425.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 2320.0,
+     "ss": 2320.0,
+     "med": 2320.0,
+     "state": 2320.0
+    },
+    "expect": {
+     "federal": 340.59,
+     "ss": 143.84,
+     "medicare": 33.64,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 518.07
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E16",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 18210.2,
+  "ytd_med": 18210.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1075.6,
+     "ss": 1075.6,
+     "med": 1075.6,
+     "state": 1075.6
+    },
+    "expect": {
+     "federal": 87.15,
+     "ss": 66.69,
+     "medicare": 15.6,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 169.44
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E4",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 3015.58,
+  "ytd_med": 3015.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 200.0,
+     "ss": 200.0,
+     "med": 200.0,
+     "state": 200.0
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 12.4,
+     "medicare": 2.9,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 15.3
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E5",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 2200.0,
+  "ytd_ss": 3386.24,
+  "ytd_med": 3386.24,
+  "lines": [
+   {
+    "wages": {
+     "fed": 807.2,
+     "ss": 807.2,
+     "med": 807.2,
+     "state": 807.2
+    },
+    "expect": {
+     "federal": 12.63,
+     "ss": 50.05,
+     "medicare": 11.7,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 74.38
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E6",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 11000.0,
+  "ytd_ss": 3666.1499999999996,
+  "ytd_med": 3666.1499999999996,
+  "lines": [
+   {
+    "wages": {
+     "fed": 265.28,
+     "ss": 265.28,
+     "med": 265.28,
+     "state": 265.28
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 16.45,
+     "medicare": 3.85,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 20.3
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E7",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 11000.0,
+  "ytd_ss": 4980.12,
+  "ytd_med": 4980.12,
+  "lines": [
+   {
+    "wages": {
+     "fed": 921.6,
+     "ss": 921.6,
+     "med": 921.6,
+     "state": 921.6
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 57.14,
+     "medicare": 13.36,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 70.5
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E17",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 28611.47,
+  "ytd_med": 28611.47,
+  "lines": [
+   {
+    "wages": {
+     "fed": 393.99,
+     "ss": 393.99,
+     "med": 393.99,
+     "state": 393.99
+    },
+    "expect": {
+     "federal": 33.53,
+     "ss": 24.43,
+     "medicare": 5.71,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 63.67
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99000000000001,
+     "ss": 50.08,
+     "medicare": 11.709999999999999,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E1",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 1450.4,
+  "ytd_med": 1450.4,
+  "lines": [
+   {
+    "wages": {
+     "fed": 648.8,
+     "ss": 648.8,
+     "med": 648.8,
+     "state": 648.8
+    },
+    "expect": {
+     "federal": 35.93,
+     "ss": 40.23,
+     "medicare": 9.41,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 85.57
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E8",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 1076.96,
+  "ytd_med": 1076.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 370.72,
+     "ss": 370.72,
+     "med": 370.72,
+     "state": 370.72
+    },
+    "expect": {
+     "federal": 6.11,
+     "ss": 22.98,
+     "medicare": 5.38,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 34.47
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E10",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 1425.92,
+  "ytd_med": 1425.92,
+  "lines": [
+   {
+    "wages": {
+     "fed": 693.6,
+     "ss": 693.6,
+     "med": 693.6,
+     "state": 693.6
+    },
+    "expect": {
+     "federal": 41.31,
+     "ss": 43,
+     "medicare": 10.06,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 94.37
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E11",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 787.68,
+  "ytd_med": 787.68,
+  "lines": [
+   {
+    "wages": {
+     "fed": 238.4,
+     "ss": 238.4,
+     "med": 238.4,
+     "state": 238.4
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 14.78,
+     "medicare": 3.46,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 18.24
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 2-8 / E21",
+  "pay_date": "2026-11-12",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": true,
+  "credit_T": 0.0,
+  "ytd_ss": 0.0,
+  "ytd_med": 0.0,
+  "lines": [
+   {
+    "wages": {
+     "fed": 141.12,
+     "ss": 141.12,
+     "med": 141.12,
+     "state": 141.12
+    },
+    "expect": {
+     "federal": 0.0,
+     "ss": 8.75,
+     "medicare": 2.05,
+     "addl_medicare": 0.0,
+     "state": 0.0,
+     "taxes": 10.8
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E12",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 7872.71,
+  "ytd_med": 7872.71,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E13",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2517.6,
+  "ytd_med": 2517.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E14",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 18864.15,
+  "ytd_med": 18864.15,
+  "lines": [
+   {
+    "wages": {
+     "fed": 887.18,
+     "ss": 887.18,
+     "med": 887.18,
+     "state": 887.18
+    },
+    "expect": {
+     "federal": 64.54,
+     "ss": 55.01,
+     "medicare": 12.86,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 132.41
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E15",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 25225,
+  "ytd_med": 25225,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1200,
+     "ss": 1200,
+     "med": 1200,
+     "state": 1200
+    },
+    "expect": {
+     "federal": 102.08,
+     "ss": 74.4,
+     "medicare": 17.4,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 193.88
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E22",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10047.74,
+  "ytd_med": 10047.74,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E16",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 16999.2,
+  "ytd_med": 16999.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E23",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10260.93,
+  "ytd_med": 10260.93,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E4",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2605.58,
+  "ytd_med": 2605.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E5",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 2200,
+  "ytd_ss": 2804.96,
+  "ytd_med": 2804.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E6",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 3158.47,
+  "ytd_med": 3158.47,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E7",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 4135.32,
+  "ytd_med": 4135.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 9-15 / E17",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 27628.37,
+  "ytd_med": 27628.37,
+  "lines": [
+   {
+    "wages": {
+     "fed": 489.84,
+     "ss": 489.84,
+     "med": 489.84,
+     "state": 489.84
+    },
+    "expect": {
+     "federal": 43.66,
+     "ss": 30.37,
+     "medicare": 7.1,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 81.13
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99,
+     "ss": 50.08,
+     "medicare": 11.71,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E12",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 7872.71,
+  "ytd_med": 7872.71,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E13",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2517.6,
+  "ytd_med": 2517.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E14",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 18864.15,
+  "ytd_med": 18864.15,
+  "lines": [
+   {
+    "wages": {
+     "fed": 887.18,
+     "ss": 887.18,
+     "med": 887.18,
+     "state": 887.18
+    },
+    "expect": {
+     "federal": 64.54,
+     "ss": 55.01,
+     "medicare": 12.86,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 132.41
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E15",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 25225,
+  "ytd_med": 25225,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1200,
+     "ss": 1200,
+     "med": 1200,
+     "state": 1200
+    },
+    "expect": {
+     "federal": 102.08,
+     "ss": 74.4,
+     "medicare": 17.4,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 193.88
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E22",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10047.74,
+  "ytd_med": 10047.74,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E16",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 16999.2,
+  "ytd_med": 16999.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E23",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10260.93,
+  "ytd_med": 10260.93,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E4",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2605.58,
+  "ytd_med": 2605.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E5",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 2200,
+  "ytd_ss": 2804.96,
+  "ytd_med": 2804.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E6",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 3158.47,
+  "ytd_med": 3158.47,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E7",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 4135.32,
+  "ytd_med": 4135.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 16-22 / E17",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 27628.37,
+  "ytd_med": 27628.37,
+  "lines": [
+   {
+    "wages": {
+     "fed": 489.84,
+     "ss": 489.84,
+     "med": 489.84,
+     "state": 489.84
+    },
+    "expect": {
+     "federal": 43.66,
+     "ss": 30.37,
+     "medicare": 7.1,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 81.13
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99,
+     "ss": 50.08,
+     "medicare": 11.71,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E12",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 7872.71,
+  "ytd_med": 7872.71,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E13",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2517.6,
+  "ytd_med": 2517.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E14",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 18864.15,
+  "ytd_med": 18864.15,
+  "lines": [
+   {
+    "wages": {
+     "fed": 887.18,
+     "ss": 887.18,
+     "med": 887.18,
+     "state": 887.18
+    },
+    "expect": {
+     "federal": 64.54,
+     "ss": 55.01,
+     "medicare": 12.86,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 132.41
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E15",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 25225,
+  "ytd_med": 25225,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1200,
+     "ss": 1200,
+     "med": 1200,
+     "state": 1200
+    },
+    "expect": {
+     "federal": 102.08,
+     "ss": 74.4,
+     "medicare": 17.4,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 193.88
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E22",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10047.74,
+  "ytd_med": 10047.74,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E16",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 16999.2,
+  "ytd_med": 16999.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E23",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10260.93,
+  "ytd_med": 10260.93,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E4",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2605.58,
+  "ytd_med": 2605.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E5",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 2200,
+  "ytd_ss": 2804.96,
+  "ytd_med": 2804.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E6",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 3158.47,
+  "ytd_med": 3158.47,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E7",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 4135.32,
+  "ytd_med": 4135.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 23-29 / E17",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 27628.37,
+  "ytd_med": 27628.37,
+  "lines": [
+   {
+    "wages": {
+     "fed": 489.84,
+     "ss": 489.84,
+     "med": 489.84,
+     "state": 489.84
+    },
+    "expect": {
+     "federal": 43.66,
+     "ss": 30.37,
+     "medicare": 7.1,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 81.13
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99,
+     "ss": 50.08,
+     "medicare": 11.71,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E12",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 7872.71,
+  "ytd_med": 7872.71,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E13",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2517.6,
+  "ytd_med": 2517.6,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E14",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 18864.15,
+  "ytd_med": 18864.15,
+  "lines": [
+   {
+    "wages": {
+     "fed": 887.18,
+     "ss": 887.18,
+     "med": 887.18,
+     "state": 887.18
+    },
+    "expect": {
+     "federal": 64.54,
+     "ss": 55.01,
+     "medicare": 12.86,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 132.41
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E15",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 25225,
+  "ytd_med": 25225,
+  "lines": [
+   {
+    "wages": {
+     "fed": 1200,
+     "ss": 1200,
+     "med": 1200,
+     "state": 1200
+    },
+    "expect": {
+     "federal": 102.08,
+     "ss": 74.4,
+     "medicare": 17.4,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 193.88
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E22",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10047.74,
+  "ytd_med": 10047.74,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E16",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 16999.2,
+  "ytd_med": 16999.2,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E23",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 10260.93,
+  "ytd_med": 10260.93,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E4",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 2605.58,
+  "ytd_med": 2605.58,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E5",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 1.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 2200,
+  "ytd_ss": 2804.96,
+  "ytd_med": 2804.96,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E6",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 3158.47,
+  "ytd_med": 3158.47,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E7",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": true,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": 5.0,
+   "other_dependents": 0.0,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 11000,
+  "ytd_ss": 4135.32,
+  "ytd_med": 4135.32,
+  "lines": [
+   {
+    "wages": {
+     "fed": 0,
+     "ss": 0,
+     "med": 0,
+     "state": 0
+    },
+    "expect": {
+     "federal": 0,
+     "ss": 0,
+     "medicare": 0,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 0
+    }
+   }
+  ]
+ },
+ {
+  "case": "Nov 30- Dec 6 / E17",
+  "pay_date": "2026-11-06",
+  "profile": {
+   "w4_entered": false,
+   "filing_status": "Single",
+   "multiple_jobs": false,
+   "other_income": 0,
+   "deductions": 0,
+   "extra_withholding": 0,
+   "federal_exempt": false,
+   "children_under_17": null,
+   "other_dependents": null,
+   "prior_annual_credit": 0,
+   "credit_override": null,
+   "tax_state": "TX",
+   "il_allowances_1": 0,
+   "il_allowances_2": 0,
+   "il_extra": 0,
+   "il_exempt": false
+  },
+  "frozen": false,
+  "credit_T": 0,
+  "ytd_ss": 27628.37,
+  "ytd_med": 27628.37,
+  "lines": [
+   {
+    "wages": {
+     "fed": 489.84,
+     "ss": 489.84,
+     "med": 489.84,
+     "state": 489.84
+    },
+    "expect": {
+     "federal": 43.66,
+     "ss": 30.37,
+     "medicare": 7.1,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 81.13
+    }
+   },
+   {
+    "wages": {
+     "fed": 807.69,
+     "ss": 807.69,
+     "med": 807.69,
+     "state": 807.69
+    },
+    "expect": {
+     "federal": 71.99,
+     "ss": 50.08,
+     "medicare": 11.71,
+     "addl_medicare": 0,
+     "state": 0,
+     "taxes": 133.78
+    }
+   }
+  ]
+ }
+]
