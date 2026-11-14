@@ -28,6 +28,8 @@ Passwords, database credentials and Square keys go **only** into `payroll/config
 
 ## 3. Configure and install (SSH)
 
+**Easiest:** skip SSH. After the code is deployed, open the site: it shows a one-time **Set up Basic Payroll** page. Paste the database name, username and password from Access Details → Database; it checks they connect, writes `config.php` and creates the tables, then takes you to Create an account. The page only accepts details that connect to this server's own database and disappears once `config.php` exists. If it says the folder isn't writable, use Application Settings → General → **Reset File/Folders Permissions** and try again.
+
 **Shortcut:** steps 2 and 3 in one go, without a deploy key (the repo is public, so it clones over HTTPS). SSH in with **Master Credentials** and run:
 
 ```sh
