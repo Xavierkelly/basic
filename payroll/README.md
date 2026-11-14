@@ -38,12 +38,15 @@ payroll/
 
 ## Deploy on Cloudways
 
+The full run sheet, with Cloudways settings, smoke test and troubleshooting, is in [DEPLOY.md](DEPLOY.md). In short:
+
 1. Create a **PHP** application (PHP 8.1 or newer) and note its database name, user and password (Application → Access Details).
 2. Deploy this repo with Cloudways **Deployment via Git** (or SFTP). Set the application's **webroot** to `public_html/payroll/public` (Application Settings → General → Webroot) so only `public/` is reachable.
 3. Over SSH, in the `payroll/` folder:
    ```sh
    cp config.example.php config.php   # then edit config.php: base_url and db settings
    php bin/install.php                # creates tables and loads 2026 tax tables (safe to re-run)
+   php bin/check.php                  # pre-flight check; should end with 0 failed
    ```
 4. Turn on the free **SSL certificate** (Application → SSL Certificate). HTTPS is required for location and for installing the app on phones.
 5. Open the site, click **Create an account**, then **Import spreadsheet** from the menu (Google Sheets: File → Download → Microsoft Excel).
