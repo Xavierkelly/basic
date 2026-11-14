@@ -28,12 +28,12 @@ final class Setup
     }
 
     /** Build config.php text from config.example.php with the given values. */
-    public static function configText(string $baseUrl, string $dbName, string $dbUser, string $dbPass): string
+    public static function configText(string $baseUrl, string $dbName, string $dbUser, string $dbPass, string $dbHost = 'localhost'): string
     {
         $example = (string) file_get_contents(APP_ROOT . '/config.example.php');
         return strtr($example, [
             "'https://your-app.cloudwaysapps.com'" => var_export($baseUrl, true),
-            "'host' => '127.0.0.1'" => "'host' => 'localhost'",
+            "'host' => '127.0.0.1'" => "'host' => " . var_export($dbHost, true),
             "'name' => 'payroll'" => "'name' => " . var_export($dbName, true),
             "'user' => 'payroll'" => "'user' => " . var_export($dbUser, true),
             "'pass' => 'change-me'" => "'pass' => " . var_export($dbPass, true),
@@ -53,45 +53,59 @@ final class Setup
 
         $v = [
             'base_url' => trim((string) ($_POST['base_url'] ?? $guessUrl)),
+            'db_host' => strtolower(trim((string) ($_POST['db_host'] ?? 'localhost'))),
             'db_name' => trim((string) ($_POST['db_name'] ?? '')),
             'db_user' => trim((string) ($_POST['db_user'] ?? '')),
         ];
         $error = null;
 
         if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
-            $pass = (string) ($_POST['db_pass'] ?? '');
+            $pass = trim((string) ($_POST['db_pass'] ?? '')); // copy/paste often adds a space or newline
             $origin = (string) ($_SERVER['HTTP_ORIGIN'] ?? '');
             $originHost = parse_url($origin, PHP_URL_HOST) . (parse_url($origin, PHP_URL_PORT) ? ':' . parse_url($origin, PHP_URL_PORT) : '');
             $sameOrigin = $origin === '' || strcasecmp($originHost, $host) === 0;
             if (!$sameOrigin) {
                 $error = 'Please submit this form from the site itself.';
-            } elseif (!preg_match('~^https?://[A-Za-z0-9.\-:]+$~', $v['base_url'])) {
-                $error = 'Site address should look like https://your-app.cloudwaysapps.com (no path, no trailing slash).';
+            } elseif (!preg_match('~^https?://[A-Za-z0-9.\-:]+$~', $v['base_url'] = rtrim($v['base_url'], '/'))) {
+                $error = 'Site address is the web address of this site, e.g. ' . $guessUrl . ' (leave the pre-filled value). "localhost" goes in Database host.';
+            } elseif (!in_array($v['db_host'], ['localhost', '127.0.0.1'], true)) {
+                $error = 'Database host must be localhost (or 127.0.0.1): the database has to be on this same server.';
             } elseif ($v['db_name'] === '' || $v['db_user'] === '' || $pass === '') {
                 $error = 'Fill in the database name, username and password.';
             } else {
-                try {
-                    $pdo = new PDO(
-                        sprintf('mysql:host=localhost;dbname=%s;charset=utf8mb4', $v['db_name']),
-                        $v['db_user'],
-                        $pass,
-                        [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_TIMEOUT => 5]
-                    );
-                } catch (Throwable $e) {
+                $pdo = null;
+                $reasons = [];
+                $hosts = $v['db_host'] === '127.0.0.1' ? ['127.0.0.1', 'localhost'] : ['localhost', '127.0.0.1'];
+                foreach ($hosts as $tryHost) {
+                    try {
+                        $pdo = new PDO(
+                            sprintf('mysql:host=%s;dbname=%s;charset=utf8mb4', $tryHost, $v['db_name']),
+                            $v['db_user'],
+                            $pass,
+                            [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, PDO::ATTR_TIMEOUT => 5]
+                        );
+                        $v['db_host'] = $tryHost;
+                        break;
+                    } catch (Throwable $e) {
+                        // MySQL error text names the user and database but never the password.
+                        $reasons[] = $tryHost . ': ' . preg_replace('/^SQLSTATE\[[^\]]*\]\s*(\[\d+\]\s*)?/', '', $e->getMessage());
+                    }
+                }
+                if (!$pdo) {
                     sleep(2); // slow down guessing
-                    $pdo = null;
-                    $error = 'Could not connect with those database details. Copy them again from Cloudways: Application → Access Details → Database.';
+                    $error = 'Could not connect to the database. MySQL said: ' . implode(' | ', array_unique($reasons))
+                        . '. Copy the details again from Cloudways: Application → Access Details → Database (use the copy icons).';
                 }
                 if ($pdo) {
                     if (is_file($configFile)) {
                         header('Location: ' . $v['base_url'] . '/');
                         exit;
                     }
-                    $text = self::configText($v['base_url'], $v['db_name'], $v['db_user'], $pass);
+                    $text = self::configText($v['base_url'], $v['db_name'], $v['db_user'], $pass, $v['db_host']);
                     $tmp = $configFile . '.' . bin2hex(random_bytes(4)) . '.tmp';
                     if (@file_put_contents($tmp, $text, LOCK_EX) === false || !@rename($tmp, $configFile)) {
                         @unlink($tmp);
-                        $error = 'Connected to the database, but could not save config.php: the app folder is not writable. '
+                        $error = 'Connected to the database, but could not save config.php (' . (error_get_last()['message'] ?? 'folder not writable') . '). '
                             . 'In Cloudways open Application Settings → General → Reset File/Folders Permissions, click Reset, then try again.';
                     } else {
                         @chmod($configFile, 0640);
@@ -134,8 +148,12 @@ final class Setup
   <?php if ($error): ?><div class="alert alert-danger"><?= $h($error) ?></div><?php endif; ?>
   <form method="post" class="card card-body shadow-sm" autocomplete="off">
     <div class="mb-3">
-      <label class="form-label" for="base_url">Site address</label>
+      <label class="form-label" for="base_url">Site address <span class="text-secondary small">(already filled in)</span></label>
       <input class="form-control" id="base_url" name="base_url" value="<?= $h($v['base_url']) ?>" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="db_host">Database host</label>
+      <input class="form-control" id="db_host" name="db_host" value="<?= $h($v['db_host'] ?: 'localhost') ?>" required>
     </div>
     <div class="mb-3">
       <label class="form-label" for="db_name">Database name</label>
