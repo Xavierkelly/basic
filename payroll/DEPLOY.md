@@ -28,6 +28,16 @@ Passwords, database credentials and Square keys go **only** into `payroll/config
 
 ## 3. Configure and install (SSH)
 
+**Shortcut:** steps 2 and 3 in one go, without a deploy key (the repo is public, so it clones over HTTPS). SSH in with **Master Credentials** and run:
+
+```sh
+bash <(curl -fsSL https://raw.githubusercontent.com/Xavierkelly/basic/master/payroll/bin/cloudways-setup.sh) <app-folder> https://<app-url>
+```
+
+`<app-folder>` is shown under Application Settings → General → Folder. It moves the app's placeholder files to `default_files_backup`, clones the repo, asks for the database name, user and password (hidden), writes `config.php`, then runs `install.php` and `check.php`. Running it again just pulls the latest code. Later updates: `cd ~/applications/<app-folder>/public_html && git pull`.
+
+Or by hand:
+
 SSH in with the Application Credentials, then:
 
 ```sh
