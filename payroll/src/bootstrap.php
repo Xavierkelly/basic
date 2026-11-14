@@ -5,8 +5,12 @@ define('APP_ROOT', dirname(__DIR__));
 
 $configFile = APP_ROOT . '/config.php';
 if (!is_file($configFile)) {
-    http_response_code(500);
-    exit('Missing config.php. Copy config.example.php to config.php and fill it in.');
+    if (PHP_SAPI === 'cli') {
+        fwrite(STDERR, "Missing config.php. Copy config.example.php to config.php and fill it in.\n");
+        exit(1);
+    }
+    require APP_ROOT . '/src/Setup.php';
+    Setup::handle($configFile);   // first-run setup page; never returns
 }
 $GLOBALS['config'] = require $configFile;
 
